@@ -15,6 +15,7 @@ public class Employee {
   LocalDate dateFire;
 
   public Employee() {
-
+    this.id = UUID.randomUUID();
+    this.name = "Enseider";
   }
 }
