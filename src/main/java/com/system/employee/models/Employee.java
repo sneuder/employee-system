@@ -26,15 +26,9 @@ public class Employee {
   private LocalDate dateFire;
   private Float salary;
 
-  public Employee(String firstName, String secondName) {
-    this.firstName = firstName;
-    this.secondName = secondName;
-  }
-
   public Employee() {
 
   }
-
 
   public Long getId() {
     return this.id;
