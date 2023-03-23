@@ -30,4 +30,8 @@ public class EmployeeService {
   public void postEmployee(Employee newEmployee) {
     employeeRepository.save(newEmployee);
   }
+
+  public void deleteEmployee(Long employeeId) {
+    employeeRepository.deleteById(employeeId);
+  }
 }

@@ -18,45 +18,102 @@ public class Employee {
   private Long id;
   private String firstName;
   private String secondName;
-  // String lastName;
-  // String secondLastName;
-  // String email;
-  // LocalDate dateOfBirth;
-  // LocalDate dateHire;
-  // LocalDate dateFire;
-  // Float salary;
+  private String lastName;
+  private String secondLastName;
+  private String email;
+  private LocalDate dateOfBirth;
+  private LocalDate dateHire;
+  private LocalDate dateFire;
+  private Float salary;
 
   public Employee(String firstName, String secondName) {
     this.firstName = firstName;
     this.secondName = secondName;
   }
-  
+
   public Employee() {
 
+  }
+
+
+  public Long getId() {
+    return this.id;
   }
 
   public void setId(Long id) {
     this.id = id;
   }
 
-  public Long getId() {
-    return id;
+  public String getFirstName() {
+    return this.firstName;
   }
 
   public void setFirstName(String firstName) {
     this.firstName = firstName;
   }
 
-  public String getFirstName() {
-    return firstName;
+  public String getSecondName() {
+    return this.secondName;
   }
 
   public void setSecondName(String secondName) {
     this.secondName = secondName;
   }
 
-  public String getSecondName() {
-    return secondName;
+  public String getLastName() {
+    return this.lastName;
+  }
+
+  public void setLastName(String lastName) {
+    this.lastName = lastName;
+  }
+
+  public String getSecondLastName() {
+    return this.secondLastName;
+  }
+
+  public void setSecondLastName(String secondLastName) {
+    this.secondLastName = secondLastName;
+  }
+
+  public String getEmail() {
+    return this.email;
+  }
+
+  public void setEmail(String email) {
+    this.email = email;
+  }
+
+  public LocalDate getDateOfBirth() {
+    return this.dateOfBirth;
+  }
+
+  public void setDateOfBirth(LocalDate dateOfBirth) {
+    this.dateOfBirth = dateOfBirth;
+  }
+
+  public LocalDate getDateHire() {
+    return this.dateHire;
+  }
+
+  public void setDateHire(LocalDate dateHire) {
+    this.dateHire = dateHire;
+  }
+
+  public LocalDate getDateFire() {
+    return this.dateFire;
+  }
+
+  public void setDateFire(LocalDate dateFire) {
+    this.dateFire = dateFire;
+  }
+
+  public Float getSalary() {
+    return this.salary;
+  }
+
+  public void setSalary(Float salary) {
+    this.salary = salary;
   }
 
 }
