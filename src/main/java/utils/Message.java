@@ -2,7 +2,6 @@ package utils;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Optional;
 
 public class Message {
   Boolean success;
@@ -14,5 +13,4 @@ public class Message {
     response.put("message", message);
     return response; 
   }
- 
 }
